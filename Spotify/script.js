@@ -1,4 +1,3 @@
-// select the  button and add functionality of click 
 const audio = document.getElementById("audioPlayer");
 const playPauseBtn = document.getElementById("playPauseBtn");
 const nextBtn = document.getElementById("nextBtn");
