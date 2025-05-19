@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- top section -->
+    <div class="top-bar">
+        <img src="image/Spotify.jpeg" alt="spotify" width="90" height="40">
+    </div>
+
+    <!-- middle section -->
+    <div class="middle-part">
+        
+        <div class="middle-box">
+            <div class="left-box">
+                <h2> Best of NCS - No Copyright Sounds</h2>
+                <ul class="music-list-ul">
+                <li class="music-list-li" data-src="image\songs_1.mp3" data-duration="03:28">
+                    <button class="song-play-btn">▶</button> On & On
+                    <span class="duration">3:28</span>
+                </li>
+                <li class="music-list-li" data-src="image\songs_2.mp3" data-duration="04:33">
+                    <button class="song-play-btn">▶</button>invincible
+                    <span class="duration">04:33</span>
+                </li>
+                <li class="music-list-li" data-src="image\songs_3.mp3" data-duration="03:48">
+                    <button class="song-play-btn">▶</button>Mortals
+                    <span class="duration">03:48</span>
+                </li>
+                <li class="music-list-li" data-src="image\songs_4.mp3" data-duration="04:19">
+                    <button class="song-play-btn">▶</button>Shine
+                    <span class="duration">04:19</span>
+                </li>
+                <li class="music-list-li" data-src="image\songs_5.mp3" data-duration="03:33">
+                    <button class="song-play-btn">▶</button>Why We Lose
+                    <span class="duration">03:33</span>
+                </li>
+                <li class="music-list-li" data-src="image\songs_6.mp3" data-duration="03:56">
+                    <button class="song-play-btn">▶</button>Sky High
+                    <span class="duration">03:56</span>
+                </li>
+                <li class="music-list-li" data-src="image\songs_7.mp3" data-duration="04:51">
+                    <button class="song-play-btn">▶</button>Symbolism
+                    <span class="duration">04:51</span>
+                </li>
+                <li class="music-list-li" data-src="image\songs_8.mp3" data-duration="03:28">
+                    <button class="song-play-btn">▶</button>Heroes Tonight
+                    <span class="duration">03:28</span>
+                </li>
+                <li class="music-list-li" data-src="image\songs_9.mp3" data-duration="04:27">
+                    <button class="song-play-btn">▶</button>Different Heaven
+                    <span class="duration">04:27</span>
+                </li>
+                <li class="music-list-li" data-src="image\songs_10.mp3" data-duration="03:01">
+                    <button class="song-play-btn">▶</button>Feel Good
+                    <span class="duration">03:01</span>
+                </li>
+            </ul>
+            </div>
+            <div class="right-box">
+                <img src="image/singer.jpeg" alt="singer" class="singer">
+            </div>          
+            
+        </div>
+    </div>
+    <!-- bottom section -->
+    <div class="bottom-section">
+        <div class="info-bar">
+            <div id="currentSong">Now Playing: </div>            
+            <input type="range" id="progressBar" value="0" step="1">
+        </div>
+        
+
+        <div class="controls">
+            <button id="prevBtn">⏮</button>
+            <button id="playPauseBtn">▶</button>
+            <button id="nextBtn">⏭</button>
+        </div>
+        <audio id="audioPlayer" class="audio-box"></audio>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
